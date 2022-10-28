@@ -1,0 +1,14 @@
+{
+    "name": "kubernetes-complete-guide",
+    "private": true,
+    "scripts": {
+        "build": "slidev build",
+        "dev": "slidev",
+        "export": "slidev export"
+    },
+    "dependencies": {
+        "@slidev/cli": "^0.36.9",
+        "@slidev/theme-default": "*",
+        "@slidev/theme-seriph": "*"
+    }
+}
