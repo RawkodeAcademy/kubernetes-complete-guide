@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: broken
+spec:
+  paused: true
+  selector:
+    matchLabels:
+      app: broken
+  template:
+    metadata:
+      labels:
+        apq: broken
+    spec:
+      containers:
+        - name: broken
+          image: ngixn:1.23
+          ports:
+            - containerPort: 81

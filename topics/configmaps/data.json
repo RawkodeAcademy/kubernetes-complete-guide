@@ -1,0 +1,6 @@
+{
+    "name": "kubernetes",
+    "version": "1.25.3",
+    "majorVersion": 1,
+    "minrorVersion": 25
+}

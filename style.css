@@ -1,0 +1,8 @@
+hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.slidev-layout pre, .slidev-layout code {
+    color: #85FF95;
+}

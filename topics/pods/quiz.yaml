@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quiz
+  labels:
+    name: quiz
+spec:
+  containers:
+    - name: quiz
+      image: nginx:1.23

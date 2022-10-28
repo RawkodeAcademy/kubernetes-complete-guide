@@ -1,0 +1,8 @@
+apiVersion: v2
+kind: ConfigMap
+metadata:
+  name: broken
+immutable: maybe
+binaryData:
+  key: value
+  multi: |

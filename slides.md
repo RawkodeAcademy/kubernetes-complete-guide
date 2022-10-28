@@ -157,20 +157,92 @@ The Kubelet is a process that runs on every node within your cluster and handles
 
 
 ---
-
-# Pods
-
-- Share network namespace
-  - IP address / binds
-- Share PID namespace
-  - PID 1
-- Share mount namespace
-  - volumes
-
----
-src: ./labs/lab-1/README.md
+src: ./topics/pods/README.md
 ---
 
 ---
-src: ./labs/lab-2/README.md
+src: ./topics/deployments/README.md
+---
+
+---
+src: ./topics/configmaps/README.md
+---
+
+---
+src: ./topics/secrets/README.md
+---
+
+---
+src: ./topics/namespaces/README.md
+---
+
+---
+src: ./topics/volumes/README.md
+---
+
+---
+src: ./topics/services/README.md
+---
+
+---
+src: ./topics/statefulsets/README.md
+---
+
+
+---
+src: ./topics/init-containers/README.md
+---
+
+
+---
+src: ./topics/sidecars/README.md
+---
+
+
+---
+src: ./topics/rollouts/README.md
+---
+
+
+---
+src: ./topics/taints-tolerations/README.md
+---
+
+
+---
+src: ./topics/probes/README.md
+---
+
+
+---
+src: ./topics/autoscaling/README.md
+---
+
+---
+src: ./topics/network-policies/README.md
+---
+
+
+---
+src: ./topics/runtime-security/README.md
+---
+
+
+---
+src: ./topics/kustomize/README.md
+---
+
+
+---
+src: ./topics/helm/README.md
+---
+
+
+---
+src: ./topics/cdk8s/README.md
+---
+
+
+---
+src: ./topics/gitops/README.md
 ---

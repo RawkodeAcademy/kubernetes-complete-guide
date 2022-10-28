@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: configmap-example
+  labels:
+    name: configmap-example
+spec:
+  containers:
+    - name: echo
+      image: alpine
+      command:
+        - env

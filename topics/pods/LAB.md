@@ -1,37 +1,35 @@
----
-layout: section
----
+# Guided Lab
 
-# Lab
+Let's create some pods
 
-Pods
-
----
-
-# Follow-Along Exercise
-
-Lab: Pods
-
-In this lab, you will learn:
-
-- What's a Pod?
-- CRUD
-- Get Vs. Describe
-- Exporting to YAML
-- How to access a pod's application with port-forwarding
-- Explain
+- Generate YAML
+  - Walkthrough
+- Create a `hello-world` Pod
+  - Logs
+  - Get
+  - Describe
+  - Delete
+- Create a `functions/nodeinfo` Pod
+  - Port-forward to the pod and access the application
+- Create a `alpine` pod with `sleep 3600` command
+  - Exec into the pod and run `ls -la /` and `ps -auxef`
 
 ---
 layout: two-cols
 ---
 
-# Solo Exercise
+# Solo Lab
 
-Lab: Pods
+20 minutes
 
 
-- Create a pod named `nginx` that runs the latest `nginx` image
-- Create a pod named `nginx` that runs the latest `nginx` image
+- Create a Pod named `nginx` that runs the `nginx:1.22` image
+- Port-forward to access your nginx pod
+- View the logs for your nginx pod
+- Upgrade your nginx pod to `nginx:1.23`
+- Delete your nginx pod
+- Create a Pod named `echo` that runs the `alpine` image
+  - Set the command and arguments so that the pod runs `echo "Hello World" && env`
 
 If there's any rate limiting, use the GCR or ECR mirrors:
 
@@ -42,7 +40,7 @@ If there's any rate limiting, use the GCR or ECR mirrors:
 
 # Help
 
-Commands You'll Need
+Useful Commands
 
 **Create a Resource**
 
