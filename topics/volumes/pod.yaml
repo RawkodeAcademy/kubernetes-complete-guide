@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example
+data:
+  good: luck
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: example
+type: Opaque
+data:
+  magicWord: ZnVuCg=
+  keepHidden: dWhvaAo=
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volume-example
+  labels:
+    name: volume-example
+spec:
+  containers:
+    - name: volume-example
+      image: alpine

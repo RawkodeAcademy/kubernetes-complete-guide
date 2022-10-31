@@ -26,5 +26,5 @@ A ConfigMap is a Kubernetes object that allows you to store non-confidential dat
 - Can mount individual keys as files
 
 ---
-src: ./topics/deployments/LAB.md
+src: ./topics/configmaps/LAB.md
 ---

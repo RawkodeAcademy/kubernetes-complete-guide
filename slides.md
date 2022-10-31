@@ -46,6 +46,8 @@ title: Hands-on Introduction to Kubernetes
 
 1. I Don't Know
 2. I Don't Understand
+3. You won't be given all the answers to these labs up-front
+4. Wash. Rinse. Repeat.
 
 ---
 
@@ -173,11 +175,12 @@ src: ./topics/secrets/README.md
 ---
 
 ---
-src: ./topics/namespaces/README.md
+src: ./topics/volumes/README.md
 ---
 
+
 ---
-src: ./topics/volumes/README.md
+src: ./topics/namespaces/README.md
 ---
 
 ---
@@ -245,4 +248,8 @@ src: ./topics/cdk8s/README.md
 
 ---
 src: ./topics/gitops/README.md
+---
+
+---
+src: ./topics/downward-api/README.md
 ---
