@@ -13,8 +13,12 @@ layout: two-cols
 
 # Solo Lab
 
-30 minutes
+45 minutes
 
 - Create a deployment called `nginx` that runs the `nginx:1.22` image
 - Update deployment to scale to `4` replicas
-- Get `broken.yaml` to work
+- Delete all the pods
+- How many ReplicaSets do you have?
+  - Delete them
+- Fix `broken.yaml`
+- Create an `alpine` pod with `sleep 3600` command and curl `nginx` from inside it

@@ -13,8 +13,9 @@ layout: two-cols
 
 # Solo Lab
 
-20 (10?) minutes
+20 minutes
 
 - Create a Secret with the following key-value pairs: `abc=123` and `def=xyz`
 - Expose the entire Secret as environment variables on a Pod
 - Confirm it works with `kubectl logs -f secret-example`
+- Fix `broken.yaml`

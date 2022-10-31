@@ -12,3 +12,4 @@ layout: two-cols
 
 - Deploy `mongodb`
 - Deploy `postgresql` and `wordpress` as a working unit
+- Write a Helm chart for `nginx` (Deployment) and `postgresl` (StatefulSet)

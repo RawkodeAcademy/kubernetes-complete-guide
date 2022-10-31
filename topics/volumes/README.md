@@ -11,7 +11,6 @@ layout: section
 - What are volumes used for in Kubernetes?
 - New ways to consume a ConfigMap's and Secrets
 
-
 ---
 
 # Volumes
@@ -35,5 +34,5 @@ It is a resource in the cluster just like a node, pod, deployment, and everythin
 PVs are just like regular volumes, but have their own lifecycle.
 
 ---
-src: ./topics/secrets/LAB.md
+src: ./topics/volumes/LAB.md
 ---

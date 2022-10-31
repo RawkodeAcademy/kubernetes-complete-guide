@@ -20,7 +20,7 @@ layout: two-cols
 
 # Solo Lab
 
-20 minutes
+40 minutes
 
 
 - Create a Pod named `nginx` that runs the `nginx:1.22` image

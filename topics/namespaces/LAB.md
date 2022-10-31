@@ -12,6 +12,6 @@ layout: two-cols
 
 20 minutes
 
-- Create a namespace with `kubectl`
-- Create a namespace with `YAML`
-- Deploying `nginx` as a Deployment to your new namespace
+- Create a namespace called `abc` with `kubectl`
+- Create a namespace called `random` with `YAML`
+- Deploying `nginx` as a Deployment to your new `random` namespace

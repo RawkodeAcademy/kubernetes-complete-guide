@@ -3,8 +3,6 @@
 - Use `kubectl` with default service account
 
 ---
-layout: two-cols
----
 
 # Solo Lab
 

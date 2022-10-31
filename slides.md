@@ -188,6 +188,16 @@ src: ./topics/services/README.md
 ---
 
 ---
+
+# Mini Klustered!
+
+https://rawkode.link/hard-bit
+
+- Klustered 1
+- Klustered 5
+- Klustered 6 (api-resources)
+
+---
 src: ./topics/statefulsets/README.md
 ---
 
@@ -201,6 +211,9 @@ src: ./topics/init-containers/README.md
 src: ./topics/sidecars/README.md
 ---
 
+---
+src: ./challenge/DAY1.md
+---
 
 ---
 src: ./topics/rollouts/README.md
@@ -225,6 +238,19 @@ src: ./topics/autoscaling/README.md
 src: ./topics/network-policies/README.md
 ---
 
+---
+src: ./topics/rbac/README.md
+---
+
+---
+
+# Mini Klustered 2!
+
+https://rawkode.link/hard-bit
+
+- Klustered 2
+- Klustered 3 (sorry)
+- Klustered 4 (sorry)
 
 ---
 src: ./topics/runtime-security/README.md

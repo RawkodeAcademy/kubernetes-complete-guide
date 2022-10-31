@@ -26,5 +26,5 @@ Namespace-based scoping is applicable only for namespaced objects (e.g. Deployme
   - Conway's Law
 
 ---
-src: ./topics/deployments/LAB.md
+src: ./topics/namespaces/LAB.md
 ---

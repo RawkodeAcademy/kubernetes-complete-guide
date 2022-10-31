@@ -8,7 +8,7 @@ layout: two-cols
 
 # Solo Lab
 
-30 minutes
+45 minutes
 
 - Provide a "cache" `emptyDir` for our applications cache
 - Mount a single key from our example Secret as a file

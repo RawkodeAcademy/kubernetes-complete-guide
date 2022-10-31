@@ -1,0 +1,42 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/18.11.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/rawkode/Code/bin:/Users/rawkode/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rawkode/.cargo/bin:/Users/rawkode/.krew/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.11.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@slidev%2fcli: ETIMEDOUT
+      at Timeout._onTimeout (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+      "name": "kubernetes-complete-guide",
+      "private": true,
+      "scripts": {
+          "build": "slidev build",
+          "dev": "slidev",
+          "export": "slidev export"
+      },
+      "dependencies": {
+          "@slidev/cli": "^0.36.9",
+          "@slidev/theme-default": "*",
+          "@slidev/theme-seriph": "*"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

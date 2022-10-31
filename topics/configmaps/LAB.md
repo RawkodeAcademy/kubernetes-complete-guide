@@ -19,3 +19,4 @@ layout: two-cols
 - Add the `data.json` file to the ConfigMap
 - Expose the entire ConfigMap as environment variables on a Pod
 - Confirm it works with `kubectl logs -f configmap-example`
+- Fix `broken.yaml`
