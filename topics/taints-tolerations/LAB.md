@@ -10,4 +10,5 @@ layout: two-cols
 
 30 minutes
 
-- Modify the `nginx` `DaemonSet` to "tolerate" the control-plane
+- Taint the control plane with `NoSchedule` taint
+- Modify the `nginx` `DaemonSet` to "tolerate" the NoSchedule taint

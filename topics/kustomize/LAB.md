@@ -1,6 +1,7 @@
 # Guided Lab
 
 - Deploy `nginx` as a vanilla resource
+- Add overlay with labels for `production`
 
 ---
 layout: two-cols

@@ -9,4 +9,4 @@ layout: two-cols
 
 60 minutes
 
-- Deploy `nginx`, `http`, and `caddy` with minimal replication but configurable `image`
+- Deploy `nginx`, `httpd`, and `caddy` with minimal replication but configurable `image`

@@ -12,4 +12,5 @@ layout: two-cols
 
 - Deploy `linkerd`
 - Ensure services get mTLS for free
-- ensure servies get retry logic for free
+- Define a `ServiceProfile` and enable retry-logic for failed requests
+  - Use `httpbin` `/status/500` to force the retry
